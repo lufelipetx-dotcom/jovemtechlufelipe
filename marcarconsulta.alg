@@ -12,6 +12,8 @@ escreval("=== MARCAR CONSULTA ===")
 escreval("Digite o seu nome: ")
 leia(nome)
 
+repita
+
 escreval("Olá, ", nome, "! Digite sua senha: ")
 leia(senha)
 
@@ -20,6 +22,9 @@ se senha="1234" entao
 senao
     escreval("Senha incorreta! Tente novamente.")
 fimse
+
+ate senha = "1234"
+
 
 escreval("Qual a especialidade da consulta que deseja marcar?")
 leia(especialidade)
