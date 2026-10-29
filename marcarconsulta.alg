@@ -1,10 +1,10 @@
 algoritmo "MarcarConsulta"
 
 var
-nome: caractere
-senha, especialidade, forma_pagamento: caractere
-horario: caractere
-data: caractere
+
+senha, especialidade, forma_pagamento, nome, horario, data: caractere
+
+
 inicio
 
 escreval("=== MARCAR CONSULTA ===")
