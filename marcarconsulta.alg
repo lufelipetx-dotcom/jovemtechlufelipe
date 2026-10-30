@@ -27,6 +27,9 @@ ate senha = "1234"
 
 
 escreval("Qual a especialidade da consulta que deseja marcar?")
+escreval("1-Dentista
+2-Clinico Geral
+3-Cirurgião")
 leia(especialidade)
 
 escreval("Temos disponivel nos horários: 08:00, 10:00, 14:00 e 16:00. Qual horário deseja marcar?")
